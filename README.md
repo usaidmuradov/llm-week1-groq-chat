@@ -1,6 +1,4 @@
-\# LLM Week 1 – Groq bilan oddiy konsol chatbot
-
-
+# LLM Week 1 – Groq bilan oddiy konsol chatbot
 
 Bu loyiha Groq LLM API’dan foydalanib, konsolda ishlaydigan oddiy chat dasturini yaratish uchun mo‘ljallangan.  
 
@@ -39,6 +37,7 @@ llm-week1/
 ├─ main.py         # Konsol chat dasturi
 
 └─ README.md
+
 
 
 
