@@ -1,20 +1,20 @@
-# LLM Week 1 – Groq bilan oddiy konsol chatbot
+LLM Week 1 – Groq bilan oddiy konsol chatbot
 
-Bu loyiha **Groq LLM API**’dan foydalanib, konsolda ishlaydigan oddiy chat dasturini yaratish uchun mo‘ljallangan.  
+Bu loyiha Groq LLM API dan foydalanib, konsolda ishlaydigan oddiy chat dasturini yaratish uchun mo‘ljallangan.  
 Maqsad – API kaliti, `.env` fayli, virtual environment va modulga bo‘lingan Python loyihasi bilan tanishish.
 
 ---
 
-## 🛠 Texnologiyalar
+🛠 Texnologiyalar
 
-* **Python 3.10+**
-* **[Groq](https://groq.com/)** – LLM API
-* **`groq`** – Python kutubxonasi
-* **`python-dotenv`** – `.env` fayldan API kalitni o‘qish uchun
+Python 3.10+
+[Groq](https://groq.com/) – LLM API
+`groq` – Python kutubxonasi
+`python-dotenv` – `.env` fayldan API kalitni o‘qish uchun
 
 ---
 
-## 📂 Loyiha tuzilmasi
+📂 Loyiha tuzilmasi
 
 ```text
 llm-week1/
@@ -68,3 +68,4 @@ llm_client.py: .env fayldan GROQ_API_KEY ni o‘qiydi, Groq klientini yaratadi v
 main.py: Foydalanuvchidan input() orqali matn oladi, uni ask_llm funksiyasiga beradi va qaytgan javobni konsolga chiqaradi.
 
 Bu loyiha LLM va API bilan ishlashni amalda o‘rganish uchun birinchi oddiy qadam sifatida yaratilgan.
+
